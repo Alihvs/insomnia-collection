@@ -1,0 +1,16 @@
+_id: env_ef704b5e587f44988f3f259f308367d3
+type: Environment
+parentId: env_6990e82cc6ef2fe1cf1d84f6c930426f161e1a5b
+modified: 1667318103640
+created: 1667317797330
+name: supply_staging
+data:
+  GW_URL: https://gw2.darkube.app
+  ACC_MNGM_URL: https://stage-acm.darkube.app
+dataPropertyOrder:
+  "&":
+    - GW_URL
+    - ACC_MNGM_URL
+color: "#ecf83f"
+isPrivate: false
+metaSortKey: 1667317797330

@@ -1,0 +1,22 @@
+_id: pf_5f88b87eff6c4ea6a13edc9cb2fac336
+type: ProtoFile
+parentId: wrk_a6f93c4c48244784bb038cf897690e0b
+modified: 1665573523397
+created: 1665573523397
+name: notification.proto
+protoText: |-
+  syntax = "proto3";
+
+  package notification;
+
+  option go_package = "backend.service/api/notificationpb";
+  import "google/protobuf/empty.proto";
+
+  message SendSMSRequest {
+    string phoneNumber = 1;
+    string message     = 2;
+  }
+
+  service Notification {
+    rpc SendSMS(SendSMSRequest) returns (google.protobuf.Empty);
+  }

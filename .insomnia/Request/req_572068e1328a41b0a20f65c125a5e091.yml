@@ -1,0 +1,28 @@
+_id: req_572068e1328a41b0a20f65c125a5e091
+type: Request
+parentId: wrk_a6f93c4c48244784bb038cf897690e0b
+modified: 1667321920110
+created: 1667315977068
+url: "{{ _.GW_URL }}/access/v1/authoriz"
+name: Access Management Autorize
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - id: pair_dc530779fe1e4d04b4f603b44cd960b3
+    name: ""
+    value: ""
+    description: ""
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBwbHkiLCJzdWIiOiJhdXRoLWFjY2VzcyIsImV4cCI6MTY3MzMwMTQzNCwiRmlyc3ROYW1lIjoi2KfZvtix2KfYqtmI2LEiLCJMYXN0TmFtZSI6Itiq2LPYqiDYrNiv24zYryIsIlBob25lTnVtYmVyIjoiOTg5MTIxNjE2MTYxIiwiRW1haWwiOiIiLCJMZWdhY3lUb2tlbiI6IjZhNDRjMjM1ZWI1Mjk5MDQ1NDU5YzY1ZjI5ZmE5MzU1ZTZhMGQ3Y2EzODE1MDhkMGZmMjgyNzEyZjAyOTE1Y2EiLCJJc0FjdGl2ZSI6dHJ1ZSwiQmxvY2tlZCI6ZmFsc2UsIkkiOjE2MTQ1OTU3NjEwODQ1MDh9.BVIFgHN4OEWHPIIRWUHwxQm-VJszAW24153UV58aFvM
+  prefix: ""
+metaSortKey: -1667315977068
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
